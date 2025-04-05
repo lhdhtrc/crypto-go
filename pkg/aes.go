@@ -11,7 +11,7 @@ import (
 type AES struct {
 }
 
-var UseAes = new(AES)
+var UseAES = new(AES)
 
 // Encrypt 使用AES加密数据
 func (e *AES) Encrypt(data []byte, key []byte) ([]byte, error) {
